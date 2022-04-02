@@ -18,6 +18,9 @@
 .env.test.local
 .env.production.local
 
+#env깃에 미포함 - 사람들이 내 키값을 볼 수 없게 하기 위해
+.env
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
